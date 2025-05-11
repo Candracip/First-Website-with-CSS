@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    text-align: center; /* akan men centerkan semua element yg tidak memiliki width/kolom, yg memiliki width harus membuat margin 0 auto 0auto; */
+    font-family: "merriweather", sans-serif;/* artinya, jika browser tidak bisa menampilkan Sacramento, maka akan ditampilkan default sans-serif*/
+}
+
+.top-container{        
+    background-color: #eaf6f6;
+    height:auto;
+        
+    }
+
+
+h1{
+    margin:auto;
+    font-family: "sacramento", sans-serif;
+    /*width: 10%;
+    margin: 0 auto 0 auto; >>>>>>>>contoh seperti ini, harus dibuatkan marginnya*/
+    font-size: 5.625rem;
+    color: #66bfbf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    }
+
+h2{
+    font-family: "montserrat",sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #66bfbf;
+    }
+
+h3{
+    font-family: "montserrat",sans-serif;
+    color: #66bfbf;
+    }
+
+
+.profile{
+    width: 40%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    }
+.profile-picture{
+    width: 25%;
+    
+    }
+
+    
+.mountain{
+    width: 400px;
+    
+}
+.cloud{
+    position: absolute;
+    right: 10%;
+    top: 20px;
+}
+
+.Doc{
+    text-decoration: underline;
+}
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> TOP CONTAINER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+.middle-container{
+     background-color: white;
+     overflow: hidden;
+    }
+
+.skill-row{
+    width: 50%; /*ini perlu margin!!! jika tidak. tidak akan di center/tengahkan karena memiliki width*/
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;   
+    
+}
+
+.webprograming-picture{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.fishing-picture{
+    width: 25%;
+    float: right; 
+    margin-left: 30px;
+}
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>  MIDDLE CONTAINER  <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+.bottom-container{
+    background-color:#66bfbf ;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    color: #119991;
+    margin: 4px 15px;
+    text-decoration: none;
+    font-family:"montserrat",sans-serif ;
+}
+
+.footer a:hover{
+    color: #eaf6f6;                 /*make text color*/
+    text-decoration: underline;       /*make decoration text underline*/
+    transition: 0,9 ease-in-out;      /* make transition smooth*/
+}
+
+
+
+
+.copyright{
+    color: #eaf6f6;
+    font-family:"montserrat",sans-serif ;
+    font-size: 14px;
+    padding: 10px 0px ;
+}
+
+
+hr{
+    border: none;
+    border-bottom: dotted 6px;
+    width: 3%;
+    color: #eaf6f6;    
+}
+
+.BUTTON_JOQ {
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #2A7C7F);
+    background-image: -moz-linear-gradient(top, #66BFBF, #2A7C7F);
+    background-image: -ms-linear-gradient(top, #66BFBF, #2A7C7F);
+    background-image: -o-linear-gradient(top, #66BFBF, #2A7C7F);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #2A7C7F);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Verdana;
+    font-size: 20px;
+    font-weight: 100;
+    padding: 10px 7PX 10PX 7PX;
+    text-shadow: 1px 1px 20px #000000;
+    border: solid#66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .BUTTON_JOQ:hover {
+    border: solid #337FED 1px;
+    background: #1E62D0;
+    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+
